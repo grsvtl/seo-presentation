@@ -1,0 +1,15 @@
+.first-slide {
+  background: radial-gradient(50% 50% at 50% 52%, #00D2FF 0%, #3A7BD5 100%);
+  padding-top: 20px;
+  padding-bottom: 90px;
+}
+
+.first-slide__title {
+  font-weight: 900;
+  font-size: 64px;
+  line-height: 75px;
+  text-align: center;
+  color: $white;
+  text-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
+  display: block;
+}

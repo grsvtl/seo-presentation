@@ -1,0 +1,48 @@
+html, body {
+  font-family: Roboto, sans-serif;
+}
+
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+body.active {
+  overflow: hidden;
+}
+
+.app.active:before {
+  content: '';
+  background: rgba(0, 0, 0, 0.77);
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 100;
+}
+
+.app.active {
+  position: relative;
+  filter: blur(40px);
+}
+
+.general-background {
+  background: radial-gradient(49.97% 70% at 50.03% 8.83%, #51185A 26.04%, #1C3454 100%);
+}
+
+.button {
+  min-height: 60px;
+  border-radius: 45px;
+}
+
+@media (max-width: 991.98px) {
+
+}
+
+@media (max-width: 767.98px) {
+
+}
