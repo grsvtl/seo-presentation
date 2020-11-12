@@ -1,9 +1,26 @@
 .scroll-topics {
+  position: relative;
+  overflow: hidden;
   ul {
     li {
       list-style-type: none;
     }
   }
+}
+
+.scroll-topics__bg-wrapper {
+  position: absolute;
+  height: 100%;
+}
+
+.scroll-topics__background {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 15px;
+  height: 100%;
+  width: 1000%;
+  background: linear-gradient(182.08deg, #1EA6EA 1.51%, #6E47EA 17.89%, #B920CB 35.32%, #E11E90 57.94%, #EB2942 78.6%, #EC632F 98.25%);
 }
 
 .scroll-topics__block {
@@ -68,4 +85,104 @@
   color: #222222;
   display: block;
   margin-bottom: 45px;
+}
+
+.scroll-topics__leftBlock {
+  padding-top: 80px;
+  padding-right: 15px;
+  min-height: 100vh;
+}
+
+.scroll-topics__leftBlock-title {
+  position: relative;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 56px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  display: inline-block;
+
+  &:before {
+    content: '';
+    position: absolute;
+    background: url("../img/arrow-white.svg") no-repeat center;
+    background-size: 100% auto;
+    width: 24px;
+    height: 34px;
+    display: block;
+    left: -44px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  &:after {
+    content: '';
+    position: absolute;
+    background: url("../img/arrow-white.svg") no-repeat center;
+    background-size: 100% auto;
+    width: 24px;
+    height: 34px;
+    display: block;
+    right: -44px;
+    top: 50%;
+    transform: rotate(180deg) translateY(50%);
+  }
+}
+
+.scroll-topics__leftBlock-text {
+  font-size: 20px;
+  line-height: 28px;
+  color: #FFFFFF;
+  margin-top: 22px;
+}
+
+.scroll-topics__border-bottom {
+  position: relative;
+
+  &:before {
+    content: '';
+    position: absolute;
+    width: 300%;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    border-bottom: 1px solid #DEDEDE;
+  }
+  
+  &:last-child {
+    &:before {
+      display: none;
+    }
+  }
+}
+
+.scroll-topics__content {
+  max-width: 100%;
+}
+
+.scroll-topics__listMenu {
+  position: absolute;
+  top: 20px;
+  left: 40px;
+}
+
+.scroll-topics__listMenu.class-fixed {
+  position: fixed;
+  top: 20px;
+  left: 40px;
+  z-index: 1;
+}
+
+.class-fixed-remove .scroll-topics__listMenu.class-fixed {
+  position: absolute;
+}
+
+.scroll-topics__list-SERP {
+  span {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #222222;
+  }
 }

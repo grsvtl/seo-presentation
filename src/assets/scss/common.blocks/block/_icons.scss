@@ -334,6 +334,22 @@
   display: block;
 }
 
+.comment-arrow-left {
+  background: url("../img/comment-arrow-left.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 44px;
+  height: 24px;
+  display: block;
+}
+
+.comment-arrow-right {
+  background: url("../img/comment-arrow-right.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 33px;
+  height: 24px;
+  display: block;
+}
+
 .one-step-line {
   position: relative;
 
@@ -443,4 +459,34 @@
     bottom: 13px;
     left: 9px;
   }
+}
+
+.analysis-opacity-bg_position {
+  position: absolute;
+  left: -100px;
+  bottom: 42px;
+}
+
+.social-media-opacity-bg_position {
+  position: absolute;
+  bottom: 49px;
+  left: -80px;
+}
+
+.link-opacity-bg_position {
+  position: absolute;
+  bottom: 52px;
+  left: -100px;
+}
+
+.text-opacity-bg_position {
+  position: absolute;
+  bottom: 31px;
+  left: -100px;
+}
+
+.website-opacity-bg_position {
+  bottom: 18px;
+  left: -100px;
+  position: absolute;
 }
