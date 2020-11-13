@@ -350,6 +350,38 @@
   display: block;
 }
 
+.facebook-circle-icon {
+  background: url("../img/facebook-circle-icon.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 34px;
+  height: 34px;
+  display: block;
+}
+
+.horizontal-curly-brace {
+  background: url("../img/horizontal-curly-brace.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 325px;
+  height: 30px;
+  display: block;
+}
+
+.arrow-bottom {
+  background: url("../img/arrow-bottom.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 7px;
+  height: 14px;
+  display: block;
+}
+
+.yandex-direct__noIcon {
+  background: url("../img/yandex-direct__noIcon.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 138px;
+  height: 31px;
+  display: block;
+}
+
 .one-step-line {
   position: relative;
 
@@ -458,6 +490,36 @@
     background-size: 100% auto;
     bottom: 13px;
     left: 9px;
+  }
+}
+
+.fourth-step-line__v3 {
+  position: relative;
+
+  &:before {
+    content: '';
+    position: absolute;
+    width: 14px;
+    height: 143px;
+    display: block;
+    background: url(../img/fourth-step-line__v3.svg) center/100% auto no-repeat;
+    left: 5px;
+    bottom: 23px;
+  }
+}
+
+.three-step-line {
+  position: relative;
+
+  &:before {
+    content: '';
+    position: absolute;
+    background: url(../img/three-step-line.svg) center/100% auto no-repeat;
+    width: 13px;
+    height: 112px;
+    bottom: 31px;
+    left: 12px;
+    display: block;
   }
 }
 

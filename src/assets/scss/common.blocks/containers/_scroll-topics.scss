@@ -49,6 +49,10 @@
   padding-left: 30px;
 }
 
+.scroll-topics__ul-pl-37 {
+  padding-left: 37px;
+}
+
 .scroll-topics__ul-pl-50 {
   padding-left: 50px;
 }
@@ -90,7 +94,14 @@
 .scroll-topics__leftBlock {
   padding-top: 80px;
   padding-right: 15px;
+}
+
+#scroll-topics__leftBlock {
   min-height: 100vh;
+
+  & > div {
+    position: absolute;
+  }
 }
 
 .scroll-topics__leftBlock-title {
@@ -139,15 +150,15 @@
 .scroll-topics__border-bottom {
   position: relative;
 
-  &:before {
-    content: '';
-    position: absolute;
-    width: 300%;
-    left: 50%;
-    bottom: 0;
-    transform: translateX(-50%);
-    border-bottom: 1px solid #DEDEDE;
-  }
+  //&:before {
+  //  content: '';
+  //  position: absolute;
+  //  width: 300%;
+  //  left: 50%;
+  //  bottom: 0;
+  //  transform: translateX(-50%);
+  //  border-bottom: 1px solid #DEDEDE;
+  //}
   
   &:last-child {
     &:before {
@@ -157,13 +168,27 @@
 }
 
 .scroll-topics__content {
-  max-width: 100%;
+  max-width: 670px;
+  padding-top: 20px;
+}
+
+.scroll-topics__content_p-v1 {
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 
 .scroll-topics__listMenu {
-  position: absolute;
-  top: 20px;
-  left: 40px;
+  position: relative;
+  z-index: 101;
+  display: flex;
+  align-items: center;
+  height: auto !important;
+  padding-bottom: 62px;
+
+  & > div {
+    display: flex;
+    align-items: center;
+  }
 }
 
 .scroll-topics__listMenu.class-fixed {
@@ -185,4 +210,75 @@
     text-align: center;
     color: #222222;
   }
+}
+
+.scroll-topics__block-2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 281px;
+  margin: 22px auto 36px auto;
+}
+
+.scroll-topics__title-2 {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #222222;
+  display: block;
+  margin-bottom: 32px;
+}
+
+.scroll-topics__block-3 {
+  max-width: 563px;
+  margin-left: auto;
+  margin-right: auto;
+
+  & > div {
+    display: flex;
+  }
+}
+
+.scroll-topics__title-3 {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color: #222222;
+  display: block;
+  margin-bottom: 12px;
+}
+
+.scroll-topics__block-4 {
+  max-width: 350px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 55px;
+}
+
+.scroll-topics__block-5 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 144px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.scroll-topics__list2 {
+  p {
+    font-size: 14px;
+    line-height: 16px;
+    color: #606060;
+    margin-bottom: 0;
+  }
+}
+
+.anchor-link {
+  width: 54px;
+  height: 54px;
+  border-radius: 50%;
+  overflow: hidden;
 }

@@ -807,37 +807,45 @@
             <div class="row position-relative">
                 <div id="myScrollspy" class="col-5 scroll-topics__bg-wrapper">
                     <div class="scroll-topics__background"></div>
-                    <ul id="scroll-topics__listMenu" class="nav nav-pills flex-column scroll-topics__listMenu">
-                        <li class="nav-item">
-                            <a class="nav-link anchor-link" href="#section1">Section 1</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link anchor-link" href="#section2">Section 2</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link anchor-link" href="#section3">Section 3</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link anchor-link" href="#section4">Section 4</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link anchor-link" href="#section5">Section 5</a>
-                        </li>
-                    </ul>
+                    <div id="scroll-topics__leftBlock" class="">
+                        <div class="scroll-topics__leftBlock">
+                            <span class="scroll-topics__leftBlock-title">Первичная <br> аналитика</span>
+                            <p class="scroll-topics__leftBlock-text">Анализ рынка конкурентов, составление семантического ядра, сбор Яндекс подсказок и Google predictions, кластеризация.</p>
+                            <span class="analysis-opacity-bg analysis-opacity-bg_position"></span>
+                        </div>
+                        <ul id="scroll-topics__listMenu" class="nav nav-pills scroll-topics__listMenu">
+                            <li class="nav-item">
+                                <a class="nav-link anchor-link" href="#section1">Section 1</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link anchor-link" href="#section2">Section 2</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link anchor-link" href="#section3">Section 3</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link anchor-link" href="#section4">Section 4</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link anchor-link" href="#section5">Section 5</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
                 <div class="col-12">
                     <div id="section1" class="row scroll-topics__border-bottom">
                         <div class="col-12">
                             <div id="trigger1"></div>
-                            <div id="trigger3"></div>
+<!--                            <div id="trigger3"></div>-->
                         </div>
                         <div class="col-5">
                             <a id="top"></a>
-                            <div id="scroll-topics__leftBlock" class="scroll-topics__leftBlock">
-                                <span class="scroll-topics__leftBlock-title">Первичная <br> аналитика</span>
-                                <p class="scroll-topics__leftBlock-text">Анализ рынка конкурентов, составление семантического ядра, сбор Яндекс подсказок и Google predictions, кластеризация.</p>
-                                <span class="analysis-opacity-bg analysis-opacity-bg_position"></span>
-                            </div>
+                            <div class="scroll-topics__leftBlock"></div>
+<!--                            <div id="scroll-topics__leftBlock" class="scroll-topics__leftBlock">-->
+<!--                                <span class="scroll-topics__leftBlock-title">Первичная <br> аналитика</span>-->
+<!--                                <p class="scroll-topics__leftBlock-text">Анализ рынка конкурентов, составление семантического ядра, сбор Яндекс подсказок и Google predictions, кластеризация.</p>-->
+<!--                                <span class="analysis-opacity-bg analysis-opacity-bg_position"></span>-->
+<!--                            </div>-->
                         </div>
                         <div class="col-7 d-flex">
                             <div id="scroll-topics__content" class="row my-auto scroll-topics__content">
@@ -1104,6 +1112,9 @@
                         </div>
                     </div>
                     <div id="section3" class="row scroll-topics__border-bottom">
+                        <div class="col-12">
+                            <div id="trigger3"></div>
+                        </div>
                         <div class="col-5">
 <!--                            <div class="scroll-topics__leftBlock">-->
 <!--                                <span class="scroll-topics__leftBlock-title">оптимизация <br> Контента</span>-->
@@ -1114,7 +1125,7 @@
                             <div class="scroll-topics__leftBlock"></div>
                         </div>
                         <div class="col-7 d-flex">
-                            <div class="row my-auto scroll-topics__content">
+                            <div id="scroll-topics__content3" class="row my-auto scroll-topics__content">
                                 <div class="col-12">
                                     <span class="scroll-topics__title">Search Engine Results Page</span>
                                 </div>
@@ -1183,6 +1194,9 @@
                         </div>
                     </div>
                     <div id="section4" class="row scroll-topics__border-bottom">
+                        <div class="col-12">
+                            <div id="trigger4"></div>
+                        </div>
                         <div class="col-5">
 <!--                            <div class="scroll-topics__leftBlock">-->
 <!--                                <span class="scroll-topics__leftBlock-title">Внешняя <br> оптимизация <br> сайта</span>-->
@@ -1193,11 +1207,11 @@
                             <div class="scroll-topics__leftBlock"></div>
                         </div>
                         <div class="col-7 d-flex">
-                            <div class="row my-auto scroll-topics__content">
+                            <div id="scroll-topics__content4" class="row my-auto scroll-topics__content">
                                 <div class="col-12">
                                    <div class="d-flex flex-column align-items-center">
                                        <svg class="w-100"
-                                            width="645" height="501" viewBox="0 0 645 501" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            viewBox="0 0 645 501" fill="none" xmlns="http://www.w3.org/2000/svg">
 
                                            <style>
 
@@ -1426,7 +1440,7 @@
                                        </svg>
 
                                    </div>
-                                    <div class="d-flex align-items-center">
+                                    <div class="scroll-topics__block-2 d-flex align-items-center">
                                         <span class="comment-arrow-left"></span>
                                         <span class="sape-icon"></span>
                                         <span class="seopolt-pro"></span>
@@ -1434,47 +1448,117 @@
                                     </div>
                                 </div>
                                 <div class="col-12">
-                                    <span>Площадки контент-маркетинга</span>
+                                    <span class="scroll-topics__title-2">Площадки контент-маркетинга</span>
                                 </div>
-                                <div class="col-4">
-                                    <span class="yandex-q__black"></span>
-                                </div>
-                                <div class="col-4">
-                                    <span class="yandex-zen__black"></span>
-                                </div>
-                                <div class="col-4">
-                                    <span class="tinkoff__black"></span>
-                                </div>
-                                <div class="col-4">
-                                    <span class="vc-ru"></span>
-                                </div>
-                                <div class="col-4">
-                                    <span class="cossa-icon"></span>
-                                </div>
-                                <div class="col-4">
-                                    <span class="disqus"></span>
+                                <div class="col-12">
+                                    <div class="row scroll-topics__block-3">
+                                        <div class="col-4 mb-4">
+                                            <span class="yandex-q__black mb-auto mx-auto"></span>
+                                        </div>
+                                        <div class="col-4 mb-4">
+                                            <span class="yandex-zen__black mb-auto mx-auto"></span>
+                                        </div>
+                                        <div class="col-4 mb-4">
+                                            <span class="tinkoff__black mb-auto mx-auto"></span>
+                                        </div>
+                                        <div class="col-4 mb-4">
+                                            <span class="vc-ru mx-auto mt-auto"></span>
+                                        </div>
+                                        <div class="col-4 mb-4">
+                                            <span class="cossa-icon mx-auto mt-auto"></span>
+                                        </div>
+                                        <div class="col-4 mb-4">
+                                            <span class="disqus mx-auto mt-auto"></span>
+                                        </div>
+                                    </div>
                                 </div>
 
                             </div>
                         </div>
                     </div>
                     <div id="section5" class="row scroll-topics__border-bottom">
+                        <div class="col-12">
+                            <div id="trigger5"></div>
+                        </div>
                         <div class="col-5">
 <!--                            <div class="scroll-topics__leftBlock">-->
 <!--                                <span class="scroll-topics__leftBlock-title">Контекстная <br> реклама</span>-->
 <!--                                <p class="scroll-topics__leftBlock-text">Работа с конверсией и поведенческим фактором, настройка поискового таргетинга, ретаргетинга и ремаркетинга. Разработка графических баннеров РСЯ и создание динамических баннеров для партнерской сети Google. Создание и подбор аудитории для рекламных кампаний. Гиперлокальный таргетинг. </p>-->
 <!--                                <span class="social-media-opacity-bg social-media-opacity-bg_position"></span>-->
 <!--                            </div>-->
+                            <div class="scroll-topics__leftBlock"></div>
                         </div>
                         <div class="col-7 d-flex">
-                            <div class="row scroll-topics__content">
-                               <div class="col-6">
-                                   <div>
-                                       
+                            <div id="scroll-topics__content5" class="row scroll-topics__content scroll-topics__content_p-v1">
+                                <div class="col-6 d-flex">
+                                   <div class="scroll-topics__wrapper">
+                                       <ul class="scroll-topics__block mb-0">
+                                           <li class="mb-3 pb-3">
+                                               <span class="yandex-direct__noIcon"></span>
+                                           </li>
+                                           <li>
+                                               <ul class="scroll-topics__ul-pl-30 scroll-topics__list2 fourth-step-line__v3">
+                                                   <li class="mb-3">
+                                                       <p>Поисковый таргетинг</p>
+                                                   </li>
+                                                   <li class="mb-3">
+                                                       <p>Ретаргетинг</p>
+                                                   </li>
+                                                   <li class="mb-3">
+                                                       <p>Гиперлокальный <br> Таргетинг</p>
+                                                   </li>
+                                                   <li class="mb-3">
+                                                       <p>Графический таргетинг <br> в РСЯ</p>
+                                                   </li>
+                                               </ul>
+                                           </li>
+                                       </ul>
                                    </div>
-                               </div>
-                                <div class="col-6">
-
+                                </div>
+                                <div class="col-6 d-flex">
+                                    <div class="scroll-topics__wrapper">
+                                        <ul class="scroll-topics__block mb-0">
+                                            <li class="mb-3 pb-3">
+                                                <span class="google-ADS"></span>
+                                            </li>
+                                            <li>
+                                                <ul class="scroll-topics__ul-pl-37 scroll-topics__list2 three-step-line">
+                                                    <li class="mb-3">
+                                                        <p>Поисковый таргетинг</p>
+                                                    </li>
+                                                    <li class="mb-3 d-flex flex-column">
+                                                        <p>Ремаркетинг</p>
+                                                        <a href="#" class="youtube-mini"></a>
+                                                    </li>
+                                                    <li class="mb-3 d-flex flex-column">
+                                                        <p>Динамические баннера <br>
+                                                            для партнерской сети Google</p>
+                                                        <a href="#" class="youtube-mini"></a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="scroll-topics__block-4">
+                                        <span class="scroll-topics__title-3 mb-2">Facebook Business Manager</span>
+                                        <div class="scroll-topics__block-5 mb-3">
+                                            <span class="arrow-bottom"></span>
+                                            <span class="facebook-circle-icon"></span>
+                                            <span class="arrow-bottom"></span>
+                                        </div>
+                                        <span class="scroll-topics__title-3">Facebook ADS менеджер</span>
+                                        <span class="horizontal-curly-brace mx-auto mb-2"></span>
+                                        <div class="d-flex">
+                                            <div class="w-50">
+                                                <span class="instagram-logotype"></span>
+                                            </div>
+                                            <div class="w-50">
+                                                <span class="facebook-logotype ml-auto"></span>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -1518,6 +1602,9 @@
 <!--            </div>-->
 <!--        </div>-->
 <!--    </section>-->
+    <footer>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam aspernatur cumque distinctio dolore, et hic laudantium minima nam nobis numquam odio odit perspiciatis, quae quod ratione sunt tenetur vel veritatis?</p>
+    </footer>
     <div class="general-background">
         <section id="write-ToUs" class="section flex-column align-items-center">
             <div class="container d-flex flex-column align-items-center">

@@ -48,6 +48,18 @@ body {
   min-width: 100% !important;
 }
 
+.sticky {
+  position: fixed !important;
+  z-index: 101;
+}
+
+@media (min-width: 1200px) {
+  .container, .container-lg, .container-md, .container-sm, .container-xl {
+    max-width: 1200px;
+  }
+}
+
+
 @media (max-width: 991.98px) {
 
 }
