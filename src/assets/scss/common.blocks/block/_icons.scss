@@ -552,3 +552,23 @@
   left: -100px;
   position: absolute;
 }
+
+.yandex-google-logo {
+  background: url("../img/yandex-google-logo.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 312px;
+  height: 52px;
+  display: block;
+}
+
+.logo-main {
+  background: url("../img/logo-main.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 184px;
+  height: 49px;
+  display: block;
+}
+
+.header {
+  margin-bottom: 31px;
+}

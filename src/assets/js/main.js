@@ -4,10 +4,10 @@ import 'popper.js/dist/popper.min';
 import 'scrollmagic/scrollmagic/uncompressed/plugins/debug.addIndicators';
 import ScrollMagic from 'scrollmagic/scrollmagic/uncompressed/ScrollMagic';
 // import { gsap, ScrollTrigger } from "gsap/all";
-// import Wow from 'wow.js';
+import Wow from 'wow.js';
 //
-// const wow = new Wow();
-// wow.init();
+const wow = new Wow();
+wow.init();
 
 
 
@@ -55,11 +55,12 @@ var scene5 = new ScrollMagic.Scene({triggerElement: "#trigger5", duration: 900, 
 //     .addTo(controller);
 
 $(document).ready(function(){
-    $(".anchor-link").on("click", function (event) {
-        event.preventDefault();
-        let id  = $(this).attr('href'),
-            top = $(id).offset().top;
-        $('body,html').animate({scrollTop: top}, 3000);
+    $(".anchor--link").on("click", function () {
+        // event.preventDefault();
+        // let id  = $(this).attr('href'),
+        //     top = $(id).offset().top;
+        // $('body,html').animate({scrollTop: top}, 3000);
+        console.log('123')
     });
 });
 

@@ -94,6 +94,10 @@
 .scroll-topics__leftBlock {
   padding-top: 80px;
   padding-right: 15px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  opacity: 0;
 }
 
 #scroll-topics__leftBlock {
@@ -277,8 +281,9 @@
 }
 
 .anchor-link {
-  width: 54px;
-  height: 54px;
-  border-radius: 50%;
-  overflow: hidden;
+
+}
+
+.scroll-topics__leftBlock-wrapper {
+  position: relative;
 }
