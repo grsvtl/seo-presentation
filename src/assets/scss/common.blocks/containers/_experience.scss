@@ -1,0 +1,284 @@
+.experience {
+  padding-top: 45px;
+  padding-bottom: 37px;
+}
+
+.experience__title {
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 56px;
+  text-align: center;
+  text-transform: uppercase;
+  display: block;
+  margin-bottom: 21px;
+  color: #222222;
+}
+
+.experience__text-1 {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  color: #444444;
+}
+
+.experience__wrapper {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.experience__text-colored {
+  font-weight: bold;
+  font-size: 120px;
+  line-height: 141px;
+  background: linear-gradient(180deg, #3CB9FF 0%, #215FFF 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.experience__text-2 {
+  font-size: 14px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  color: #777777;
+}
+
+.experience__subTitle {
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #222222;
+  display: block;
+  margin-bottom: 17px;
+  margin-top: 52px;
+}
+
+.experience__wrapper_1 {
+  //.tp-1 {
+  //  position: absolute;
+  //}
+  //
+  //.tp-2 {
+  //  position: absolute;
+  //}
+  //
+  //.tp-3 {
+  //  position: absolute;
+  //}
+}
+
+#line-progress__line-1 {
+  width: 1.3%;
+  animation-name: line1;
+  animation-duration: 0.6s;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+  animation-delay: 1.2s;
+}
+
+#line-progress__line-2 {
+  width: 1.3%;
+  animation-name: line2;
+  animation-duration: 0.6s;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+  animation-delay: 1s;
+}
+
+#line-progress__line-3 {
+  width: 1.3%;
+  animation-name: line3;
+  animation-duration: 0.6s;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+  animation-delay: 1.4s;
+}
+
+#line-progress__line-4 {
+  width: 1.3%;
+  animation-name: line4;
+  animation-duration: 0.6s;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+  animation-delay: 1.6s;
+}
+
+#line-progress__line-5 {
+  width: 1.3%;
+  animation-name: line5;
+  animation-duration: 0.6s;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+  animation-delay: 1.8s;
+}
+
+#line-progress__line-6 {
+  width: 1.3%;
+  animation-name: line6;
+  animation-duration: 0.6s;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+  animation-delay: 2.2s;
+}
+
+#line-progress__line-7 {
+  width: 1.3%;
+  animation-name: line7;
+  animation-duration: 0.6s;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+  animation-delay: 2s;
+}
+
+@keyframes line1 {
+  from {
+    width: 1.3%;
+  }
+
+  to {
+    width: 83%;
+  }
+}
+
+@keyframes line2 {
+  from {
+    width: 1.3%;
+  }
+
+  to {
+    width: 86.4%;
+  }
+}
+
+@keyframes line3 {
+  from {
+    width: 1.3%;
+  }
+
+  to {
+    width: 80.6%;
+  }
+}
+
+@keyframes line4 {
+  from {
+    width: 1.3%;
+  }
+
+  to {
+    width: 72.3%;
+  }
+}
+
+@keyframes line5 {
+  from {
+    width: 1.3%;
+  }
+
+  to {
+    width: 64%;
+  }
+}
+
+@keyframes line6 {
+  from {
+    width: 1.3%;
+  }
+
+  to {
+    width: 53.5%;
+  }
+}
+
+@keyframes line7 {
+  from {
+    width: 1.3%;
+  }
+
+  to {
+    width: 56.5%;
+  }
+}
+
+#flag-1 {
+  animation-name: flagAnimation;
+  animation-duration: 0.3s;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+  animation-delay: 1.2s;
+}
+
+#flag-2 {
+  animation-name: flagAnimation;
+  animation-duration: 0.3s;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+  animation-delay: 1s;
+}
+
+#flag-3 {
+  animation-name: flagAnimation;
+  animation-duration: 0.3s;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+  animation-delay: 1.4s;
+}
+
+#flag-4 {
+  animation-name: flagAnimation;
+  animation-duration: 0.3s;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+  animation-delay: 1.6s;
+}
+
+#flag-5 {
+  animation-name: flagAnimation;
+  animation-duration: 0.3s;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+  animation-delay: 1.8s;
+}
+
+#flag-6 {
+  animation-name: flagAnimation;
+  animation-duration: 0.3s;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+  animation-delay: 2.2s;
+}
+
+#flag-7 {
+  animation-name: flagAnimation;
+  animation-duration: 0.3s;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+  animation-delay: 2.0s;
+}
+
+.flag-icon {
+  transform: translateY(-20px);
+  opacity: 0;
+}
+
+@keyframes flagAnimation {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
