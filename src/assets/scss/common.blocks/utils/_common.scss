@@ -53,6 +53,29 @@ body {
   z-index: 101;
 }
 
+.button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  text-transform: none;
+}
+
+.btn-gradient {
+  color: #FFFFFF;
+  background-size: 300% 100%;
+  background-image: linear-gradient(to left, #E935B6, #ED7E40, #ED7E40, #E935B6);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.11);
+  min-width: 254px;
+  transition: all .3s ease-in-out;
+
+  &:hover {
+    color: #FFFFFF;
+    background-position: 100% 0;
+    transition: all .3s ease-in-out;
+  }
+}
+
 @media (min-width: 1200px) {
   .container, .container-lg, .container-md, .container-sm, .container-xl {
     max-width: 1200px;

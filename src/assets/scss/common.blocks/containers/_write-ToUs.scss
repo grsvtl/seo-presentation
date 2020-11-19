@@ -19,7 +19,19 @@
     overflow: hidden;
     position: relative;
     padding-top: 78px;
-    padding-bottom: 108px;
+    padding-bottom: 60px;
+
+    &:before {
+        content: '';
+        position: absolute;
+        width: 513px;
+        height: 210px;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        background: url("../img/semicircle.svg") no-repeat center;
+        background-size: 100% auto;
+    }
 
     .container {
         margin-top: auto;
@@ -175,27 +187,29 @@
 }
 
 .write-ToUs__block-social-linkedin {
-    background: url("../img/linkedin.svg") no-repeat center;
+    background: url("../img/linkedin-footer.svg") no-repeat center;
     background-size: 100% auto;
 }
 
 .write-ToUs__block-social-github {
-    background: url("../img/github.svg") no-repeat center;
+    background: url("../img/github-footer.svg") no-repeat center;
     background-size: 100% auto;
 }
 
 .write-ToUs__block-social-facebook {
-    background: url("../img/facebook.svg") no-repeat center;
+    background: url("../img/facebook-footer.svg") no-repeat center;
     background-size: 100% auto;
 }
 
 .write-ToUs__block-social-instagram {
-    background: url("../img/instagram.svg") no-repeat center;
+    background: url("../img/instagram-footer.svg") no-repeat center;
     background-size: 100% auto;
 }
 
 .write-ToUs__btn-bottom {
     margin-top: 174px;
+    position: relative;
+    z-index: 1;
 }
 
 @keyframes move-forever {
@@ -234,6 +248,10 @@
     bottom: 200px;
 }
 
+.write-ToUs__block-form-btn {
+    min-width: 198px;
+}
+
 /*prevent many large-by-comparison ripples by shrinking the height*/
 @media (max-width: 50em) {
     .editorial {
@@ -251,7 +269,6 @@
         margin-top: 50px;
     }
 }
-
 
 @media (max-width: 767.98px) {
     .write-ToUs__form-control {
