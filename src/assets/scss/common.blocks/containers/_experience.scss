@@ -63,80 +63,114 @@
 }
 
 .experience__wrapper_1 {
-  //.tp-1 {
-  //  position: absolute;
-  //}
-  //
-  //.tp-2 {
-  //  position: absolute;
-  //}
-  //
-  //.tp-3 {
-  //  position: absolute;
-  //}
+  width: 321px;
+
+  .tp-1 {
+    position: absolute;
+    left: 0;
+    top: 20px;
+  }
+
+  .tp-3 {
+    position: absolute;
+    right: 0;
+    bottom: -10px;
+  }
+
 }
 
-#line-progress__line-1 {
+.experience__wrapper_2 {
+  width: 205px;
+  align-items: flex-start;
+
+  .tp-1 {
+    position: relative;
+    top: 20px;
+  }
+
+  .tp-3 {
+    position: relative;
+    top: 6px;
+  }
+
+  .tp-4 {
+    transform: translateY(-17px);
+  }
+}
+
+.experience__wrapper_3 {
+  width: 256px;
+
+  .tp-1 {
+    position: relative;
+    top: -20px;
+    left: 20px;
+  }
+}
+
+.experience__block {
+  display: flex;
+  flex-direction: column;
+}
+
+.line-progress__line {
   width: 1.3%;
+}
+
+.animated #line-progress__line-1 {
   animation-name: line1;
   animation-duration: 0.6s;
   animation-timing-function: linear;
   animation-fill-mode: forwards;
-  animation-delay: 1.2s;
+  animation-delay: 0.6s;
 }
 
-#line-progress__line-2 {
-  width: 1.3%;
+.animated #line-progress__line-2 {
   animation-name: line2;
+  animation-duration: 0.6s;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+  animation-delay: 0.4s;
+}
+
+.animated #line-progress__line-3 {
+  animation-name: line3;
+  animation-duration: 0.6s;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+  animation-delay: 0.8s;
+}
+
+.animated #line-progress__line-4 {
+  animation-name: line4;
   animation-duration: 0.6s;
   animation-timing-function: linear;
   animation-fill-mode: forwards;
   animation-delay: 1s;
 }
 
-#line-progress__line-3 {
-  width: 1.3%;
-  animation-name: line3;
+.animated #line-progress__line-5 {
+  animation-name: line5;
   animation-duration: 0.6s;
   animation-timing-function: linear;
   animation-fill-mode: forwards;
-  animation-delay: 1.4s;
+  animation-delay: 1.2s;
 }
 
-#line-progress__line-4 {
-  width: 1.3%;
-  animation-name: line4;
+.animated #line-progress__line-6 {
+  animation-name: line6;
   animation-duration: 0.6s;
   animation-timing-function: linear;
   animation-fill-mode: forwards;
   animation-delay: 1.6s;
 }
 
-#line-progress__line-5 {
-  width: 1.3%;
-  animation-name: line5;
-  animation-duration: 0.6s;
-  animation-timing-function: linear;
-  animation-fill-mode: forwards;
-  animation-delay: 1.8s;
-}
-
-#line-progress__line-6 {
-  width: 1.3%;
-  animation-name: line6;
-  animation-duration: 0.6s;
-  animation-timing-function: linear;
-  animation-fill-mode: forwards;
-  animation-delay: 2.2s;
-}
-
-#line-progress__line-7 {
-  width: 1.3%;
+.animated #line-progress__line-7 {
   animation-name: line7;
   animation-duration: 0.6s;
   animation-timing-function: linear;
   animation-fill-mode: forwards;
-  animation-delay: 2s;
+  animation-delay: 1.4s;
 }
 
 @keyframes line1 {
@@ -209,15 +243,31 @@
   }
 }
 
-#flag-1 {
+.animated #flag-1 {
   animation-name: flagAnimation;
   animation-duration: 0.3s;
   animation-timing-function: linear;
   animation-fill-mode: forwards;
-  animation-delay: 1.2s;
+  animation-delay: 0.6s;
 }
 
-#flag-2 {
+.animated #flag-2 {
+  animation-name: flagAnimation;
+  animation-duration: 0.3s;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+  animation-delay: 0.4s;
+}
+
+.animated #flag-3 {
+  animation-name: flagAnimation;
+  animation-duration: 0.3s;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+  animation-delay: 0.8s;
+}
+
+.animated #flag-4 {
   animation-name: flagAnimation;
   animation-duration: 0.3s;
   animation-timing-function: linear;
@@ -225,15 +275,15 @@
   animation-delay: 1s;
 }
 
-#flag-3 {
+.animated #flag-5 {
   animation-name: flagAnimation;
   animation-duration: 0.3s;
   animation-timing-function: linear;
   animation-fill-mode: forwards;
-  animation-delay: 1.4s;
+  animation-delay: 1.2s;
 }
 
-#flag-4 {
+.animated #flag-6 {
   animation-name: flagAnimation;
   animation-duration: 0.3s;
   animation-timing-function: linear;
@@ -241,28 +291,12 @@
   animation-delay: 1.6s;
 }
 
-#flag-5 {
+.animated #flag-7 {
   animation-name: flagAnimation;
   animation-duration: 0.3s;
   animation-timing-function: linear;
   animation-fill-mode: forwards;
-  animation-delay: 1.8s;
-}
-
-#flag-6 {
-  animation-name: flagAnimation;
-  animation-duration: 0.3s;
-  animation-timing-function: linear;
-  animation-fill-mode: forwards;
-  animation-delay: 2.2s;
-}
-
-#flag-7 {
-  animation-name: flagAnimation;
-  animation-duration: 0.3s;
-  animation-timing-function: linear;
-  animation-fill-mode: forwards;
-  animation-delay: 2.0s;
+  animation-delay: 1.4s;
 }
 
 .flag-icon {

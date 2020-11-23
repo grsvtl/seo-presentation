@@ -18,29 +18,29 @@ $('[data-toggle="tooltip"]').tooltip();
 
 var controller = new ScrollMagic.Controller();
 //
-var scene1 = new ScrollMagic.Scene({triggerElement: "#trigger1", duration: 900, triggerHook: "onLeave",opacity: 0})
+var scene1 = new ScrollMagic.Scene({triggerElement: "#trigger1", duration: 900, triggerHook: 0.1, opacity: 0})
     .setPin("#scroll-topics__content")
-    .addIndicators({name: "1 (duration: 200)"})
+    .addIndicators({name: "1"})
     .addTo(controller);
 
-var scene2 = new ScrollMagic.Scene({triggerElement: "#trigger2", duration: 900, triggerHook: "onLeave",})
+var scene2 = new ScrollMagic.Scene({triggerElement: "#trigger2", duration: 900, triggerHook: 0,})
     .setPin("#scroll-topics__content2")
-    .addIndicators({name: "1 (duration: 200)"})
+    .addIndicators({name: "2"})
     .addTo(controller);
 
-var scene3 = new ScrollMagic.Scene({triggerElement: "#trigger3", duration: 900, triggerHook: "onLeave",})
+var scene3 = new ScrollMagic.Scene({triggerElement: "#trigger3", duration: 900, triggerHook: 0.1,})
     .setPin("#scroll-topics__content3")
-    .addIndicators({name: "1 (duration: 200)"})
+    .addIndicators({name: "3"})
     .addTo(controller);
 
-var scene4 = new ScrollMagic.Scene({triggerElement: "#trigger4", duration: 900, triggerHook: "onLeave",})
+var scene4 = new ScrollMagic.Scene({triggerElement: "#trigger4", duration: 900, triggerHook: 0.03,})
     .setPin("#scroll-topics__content4")
-    .addIndicators({name: "1 (duration: 200)"})
+    .addIndicators({name: "4"})
     .addTo(controller);
 
-var scene5 = new ScrollMagic.Scene({triggerElement: "#trigger5", duration: 900, triggerHook: "onLeave",})
+var scene5 = new ScrollMagic.Scene({triggerElement: "#trigger5", duration: 900, triggerHook: 0.1,})
     .setPin("#scroll-topics__content5")
-    .addIndicators({name: "1 (duration: 200)"})
+    .addIndicators({name: "5"})
     .addTo(controller);
 
 
@@ -95,7 +95,7 @@ $(document).ready( function() {
                     a.style.border = '0';
                 }
                 var Ra = a.getBoundingClientRect(),
-                    R = Math.round(Ra.top + b.getBoundingClientRect().height - document.querySelector('footer').getBoundingClientRect().top + 0);  // селектор блока, при достижении верхнего края которого нужно открепить прилипающий элемент;  Math.round() только для IE; если ноль заменить на число, то блок будет прилипать до того, как нижний край элемента дойдёт до футера
+                    R = Math.round(Ra.top + b.getBoundingClientRect().height - document.querySelector('.border-bottom-animation').getBoundingClientRect().top + 0);  // селектор блока, при достижении верхнего края которого нужно открепить прилипающий элемент;  Math.round() только для IE; если ноль заменить на число, то блок будет прилипать до того, как нижний край элемента дойдёт до футера
                 if ((Ra.top - P) <= 0) {
                     if ((Ra.top - P) <= R) {
                         b.className = 'stop';
