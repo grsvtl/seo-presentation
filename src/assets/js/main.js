@@ -1,24 +1,33 @@
 import './config/jqueryLoad';
 import 'bootstrap/dist/js/bootstrap.min';
 import 'popper.js/dist/popper.min';
+// import 'libs/scrollspy';
 import 'scrollmagic/scrollmagic/uncompressed/plugins/debug.addIndicators';
 import ScrollMagic from 'scrollmagic/scrollmagic/uncompressed/ScrollMagic';
-// import { gsap, ScrollTrigger } from "gsap/all";
 import Wow from 'wow.js';
-//
 const wow = new Wow();
 wow.init();
 
 
 
-// gsap.registerPlugin(ScrollTrigger);
+$(document).ready(function(){
+    $(".anchor--link").on("click", function () {
+        event.preventDefault();
+        let id  = $(this).attr('href'),
+            top = $(id).offset().top;
+        $('body,html').animate({scrollTop: top}, 3000);
+    });
+});
+
+// $("#testId").scrollspy();
+
 
 $('[data-toggle="popover"]').popover();
 $('[data-toggle="tooltip"]').tooltip();
 
 var controller = new ScrollMagic.Controller();
 //
-var scene1 = new ScrollMagic.Scene({triggerElement: "#trigger1", duration: 900, triggerHook: 0.1, opacity: 0})
+var scene1 = new ScrollMagic.Scene({triggerElement: "#trigger1", duration: 900, triggerHook: 0.1,})
     .setPin("#scroll-topics__content")
     .addIndicators({name: "1"})
     .addTo(controller);
@@ -54,20 +63,6 @@ var scene5 = new ScrollMagic.Scene({triggerElement: "#trigger5", duration: 900, 
 //     .addIndicators() // add indicators (requires plugin)
 //     .addTo(controller);
 
-$(document).ready(function(){
-    $(".anchor--link").on("click", function () {
-        // event.preventDefault();
-        // let id  = $(this).attr('href'),
-        //     top = $(id).offset().top;
-        // $('body,html').animate({scrollTop: top}, 3000);
-        console.log('123')
-    });
-});
-
-
-// $(document).ready(function(){
-//     $('body').scrollspy({target: ".navbar", offset: 50});
-// });
 
 
 let isMobile = false;

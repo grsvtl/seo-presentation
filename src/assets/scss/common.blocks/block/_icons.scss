@@ -286,6 +286,75 @@
   display: block;
 }
 
+.analysis-iconLink {
+  background: url("../img/analysis-white.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 30px;
+  height: 30px;
+  display: block;
+}
+
+.website-iconLink {
+  background: url("../img/website-white.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 35px;
+  height: 35px;
+  display: block;
+}
+
+.text-iconLink {
+  background: url("../img/text-white.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 30px;
+  height: 30px;
+  display: block;
+}
+
+.link-iconLink {
+  background: url("../img/link-white.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 27px;
+  height: 27px;
+  display: block;
+}
+
+.social-media-iconLink {
+  background: url("../img/social-media-white.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 31px;
+  height: 31px;
+  display: block;
+}
+
+.scroll-topics__listMenu-icon.active {
+  background: #ffffff !important;
+
+  .analysis-iconLink {
+    background: url("../img/analysis-black.svg") no-repeat center;
+    background-size: 100% auto;
+  }
+
+  .website-iconLink {
+    background: url("../img/website-black.svg") no-repeat center;
+    background-size: 100% auto;
+  }
+
+  .text-iconLink {
+    background: url("../img/text-black.svg") no-repeat center;
+    background-size: 100% auto;
+  }
+
+  .link-iconLink {
+    background: url("../img/link-black.svg") no-repeat center;
+    background-size: 100% auto;
+  }
+
+  .social-media-iconLink {
+    background: url("../img/social-media-black.svg") no-repeat center;
+    background-size: 100% auto;
+  }
+}
+
 .analysis-opacity-bg {
   background: url("../img/analysis-opacity-bg.svg") no-repeat center;
   background-size: 100% auto;
@@ -524,33 +593,33 @@
 }
 
 .analysis-opacity-bg_position {
-  position: absolute;
+  position: relative;
   left: -100px;
-  bottom: 42px;
+  margin-top: 100px;
 }
 
 .social-media-opacity-bg_position {
-  position: absolute;
-  bottom: 49px;
+  position: relative;
+  margin-top: 100px;
   left: -80px;
 }
 
 .link-opacity-bg_position {
-  position: absolute;
-  bottom: 52px;
+  position: relative;
+  margin-top: 100px;
   left: -100px;
 }
 
 .text-opacity-bg_position {
-  position: absolute;
-  bottom: 31px;
+  position: relative;
+  margin-top: 100px;
   left: -100px;
 }
 
 .website-opacity-bg_position {
-  bottom: 18px;
+  margin-top: 100px;
   left: -100px;
-  position: absolute;
+  position: relative;
 }
 
 .yandex-google-logo {

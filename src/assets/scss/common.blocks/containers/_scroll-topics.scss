@@ -1,11 +1,21 @@
 .scroll-topics {
   position: relative;
   overflow: hidden;
+
   ul {
     li {
       list-style-type: none;
     }
   }
+}
+
+.scroll-topics__pt {
+  padding-top: 90px;
+}
+
+.scroll-topics__section {
+  position: relative;
+  z-index: 1000;
 }
 
 .scroll-topics__bg-wrapper {
@@ -92,12 +102,10 @@
 }
 
 .scroll-topics__leftBlock {
-  padding-top: 80px;
   padding-right: 15px;
-  position: absolute;
+  position: relative;
   top: 0;
   right: 0;
-  opacity: 0;
 }
 
 #scroll-topics__leftBlock {
@@ -185,14 +193,34 @@
   position: relative;
   z-index: 101;
   display: flex;
-  align-items: center;
   height: auto !important;
   padding-bottom: 62px;
+  min-height: 100vh;
+
+  .nav-item {
+    display: flex;
+    align-items: flex-end;
+  }
+
+  .nav-link {
+    background: initial !important;
+  }
 
   & > div {
     display: flex;
     align-items: center;
   }
+}
+
+.scroll-topics__listMenu-icon {
+  width: 54px;
+  height: 54px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50% !important;
+  border: 1px solid #FFFFFF;
+  margin-right: 21px;
 }
 
 .scroll-topics__listMenu.class-fixed {
