@@ -15,7 +15,6 @@
 
 .scroll-topics__section {
   position: relative;
-  z-index: 1000;
 }
 
 .scroll-topics__bg-wrapper {
@@ -106,6 +105,13 @@
   position: relative;
   top: 0;
   right: 0;
+  opacity: 0;
+  transition: 0.3s;
+
+  &.active {
+    opacity: 1;
+    transition: 0.3s;
+  }
 }
 
 #scroll-topics__leftBlock {

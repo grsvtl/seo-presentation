@@ -30,40 +30,32 @@ var controller = new ScrollMagic.Controller();
 var scene1 = new ScrollMagic.Scene({triggerElement: "#trigger1", duration: 900, triggerHook: 0.1,})
     .setPin("#scroll-topics__content")
     .addIndicators({name: "1"})
+    .setClassToggle(".scroll-topics__leftBlock-1", "active")
     .addTo(controller);
 
-var scene2 = new ScrollMagic.Scene({triggerElement: "#trigger2", duration: 900, triggerHook: 0,})
+var scene2 = new ScrollMagic.Scene({triggerElement: "#trigger2", duration: 900, triggerHook: 0.01})
     .setPin("#scroll-topics__content2")
     .addIndicators({name: "2"})
+    .setClassToggle(".scroll-topics__leftBlock-2", "active")
     .addTo(controller);
 
 var scene3 = new ScrollMagic.Scene({triggerElement: "#trigger3", duration: 900, triggerHook: 0.1,})
     .setPin("#scroll-topics__content3")
     .addIndicators({name: "3"})
+    .setClassToggle(".scroll-topics__leftBlock-3", "active")
     .addTo(controller);
 
 var scene4 = new ScrollMagic.Scene({triggerElement: "#trigger4", duration: 900, triggerHook: 0.03,})
     .setPin("#scroll-topics__content4")
     .addIndicators({name: "4"})
+    .setClassToggle(".scroll-topics__leftBlock-4", "active")
     .addTo(controller);
 
 var scene5 = new ScrollMagic.Scene({triggerElement: "#trigger5", duration: 900, triggerHook: 0.1,})
     .setPin("#scroll-topics__content5")
     .addIndicators({name: "5"})
+    .setClassToggle(".scroll-topics__leftBlock-5", "active")
     .addTo(controller);
-
-
-// var scene3 = new ScrollMagic.Scene({triggerElement: "#myScrollspy", triggerHook: "onLeave"})
-//     .setClassToggle("#scroll-topics__listMenu", "class-fixed") // add class toggle
-//     .addIndicators() // add indicators (requires plugin)
-//     .addTo(controller);
-//
-// var scene3_1 = new ScrollMagic.Scene({triggerElement: "#Scrollspy-end", triggerHook: "onLeave"})
-//     .setClassToggle("#scroll-topics", "class-fixed-remove") // add class toggle
-//     .addIndicators() // add indicators (requires plugin)
-//     .addTo(controller);
-
-
 
 let isMobile = false;
 $(document).ready( function() {
