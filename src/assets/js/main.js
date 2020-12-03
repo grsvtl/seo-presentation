@@ -1,6 +1,8 @@
 import './config/jqueryLoad';
 import 'bootstrap/dist/js/bootstrap.min';
 import 'popper.js/dist/popper.min';
+import 'owl.carousel/dist/owl.carousel';
+// import 'slick-carousel/slick/slick.min';
 // import 'libs/scrollspy';
 import 'scrollmagic/scrollmagic/uncompressed/plugins/debug.addIndicators';
 import ScrollMagic from 'scrollmagic/scrollmagic/uncompressed/ScrollMagic';
@@ -8,7 +10,12 @@ import Wow from 'wow.js';
 const wow = new Wow();
 wow.init();
 
-
+$('.owl-carousel').owlCarousel({
+    margin:27,
+    loop:false,
+    autoWidth:true,
+    items:3
+});
 
 $(document).ready(function(){
     $(".anchor--link").on("click", function () {
@@ -17,6 +24,18 @@ $(document).ready(function(){
             top = $(id).offset().top;
         $('body,html').animate({scrollTop: top}, 3000);
     });
+});
+
+$('#burger').click(function () {
+    $('.menu-modal').addClass('active');
+    $('#app').addClass('active');
+    $('body').addClass('active');
+});
+
+$('#main-menu-close').click(function () {
+    $('.menu-modal').removeClass('active');
+    $('#app').removeClass('active');
+    $('body').removeClass('active');
 });
 
 // $("#testId").scrollspy();

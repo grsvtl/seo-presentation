@@ -1,5 +1,6 @@
 //LIBRARY
 @import "library.styles/bootstrap/bootstrap";
+@import "node_modules/owl.carousel/src/scss/owl.carousel";
 //@import "node_modules/slick-carousel/slick/slick.scss";
 //@import "node_modules/slick-carousel/slick/slick-theme.scss";
 //@import "node_modules/animate.css/animate";
@@ -25,9 +26,10 @@
 @import "common.blocks/containers/seo-performance-marketing-diagram";
 @import "common.blocks/containers/scroll-topics";
 @import "common.blocks/containers/topics";
+@import "common.blocks/containers/our-team";
 
-@import "common.blocks/containers/other-jobs";
 @import "common.blocks/containers/write-ToUs";
+@import "common.blocks/containers/menu-modal";
 
 //BLOCKS
 @import "common.blocks/block/burger";
