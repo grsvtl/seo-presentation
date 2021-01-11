@@ -1,0 +1,36 @@
+.hitTheTarget {
+  padding-bottom: 60px;
+}
+
+.hitTheTarget__img {
+  max-width: 100%;
+  transform: translateX(68px);
+  margin-top: 50px;
+}
+
+.hitTheTarget__title {
+  font-weight: bold;
+  font-size: 70px;
+  line-height: 82px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  text-shadow: 0 4px 0 rgba(255, 255, 255, 0.46);
+  display: block;
+  text-align: center;
+  margin-bottom: 14px;
+
+  span {
+    font-size: 99px;
+    line-height: 116px;
+  }
+}
+
+.hitTheTarget__subTitle {
+  font-weight: 900;
+  font-size: 54px;
+  line-height: 63px;
+  text-align: center;
+  color: #FFFFFF;
+  text-shadow: 0 3px 0 rgba(255, 255, 255, 0.42);
+  display: block;
+}

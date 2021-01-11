@@ -638,10 +638,6 @@
   display: block;
 }
 
-.header {
-  margin-bottom: 31px;
-}
-
 .teeth {
   background: url("../img/teeth.svg") no-repeat center;
   background-size: 100% auto;
@@ -703,5 +699,69 @@
   background-size: 100% auto;
   width: 66px;
   height: 66px;
+  display: block;
+}
+
+.lecture-icon {
+  background: url("../img/lecture-icon.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 49px;
+  height: 48px;
+  display: block;
+}
+
+.like-icon {
+  background: url("../img/like-icon.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 47px;
+  height: 47px;
+  display: block;
+}
+
+.money-growth-icon {
+  background: url("../img/money-growth-icon.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 50px;
+  height: 50px;
+  display: block;
+}
+
+.top-three-icon {
+  background: url("../img/top-three-icon.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 50px;
+  height: 50px;
+  display: block;
+}
+
+.statistics-icon {
+  background: url("../img/statistics-icon.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 50px;
+  height: 49px;
+  display: block;
+}
+
+.data-icon {
+  background: url("../img/data-icon.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 50px;
+  height: 50px;
+  display: block;
+}
+
+.to-do-list-icon {
+  background: url("../img/to-do-list-icon.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 52px;
+  height: 52px;
+  display: block;
+}
+
+.savings-icon {
+  background: url("../img/savings-icon.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 52px;
+  height: 52px;
   display: block;
 }
