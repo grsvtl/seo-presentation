@@ -68,3 +68,26 @@
   color: #555555;
   margin-bottom: 0;
 }
+
+@media (max-width: 767.98px) {
+  .topic-link__title {
+    font-size: 16px;
+    line-height: 19px;
+    margin-bottom: 33px;
+  }
+
+  .topic-link__line {
+    margin-bottom: 11px;
+  }
+
+  .topic-link__circle {
+    margin-bottom: 14px;
+    width: 80px;
+    height: 80px;
+    overflow: hidden;
+  }
+
+  .topic-link__icon {
+    max-width: 60%;
+  }
+}

@@ -34,3 +34,26 @@
   text-shadow: 0 3px 0 rgba(255, 255, 255, 0.42);
   display: block;
 }
+
+@media (max-width: 767.98px) {
+  .hitTheTarget__title {
+    font-size: 35px;
+    line-height: 41px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0;
+
+    span {
+      font-size: 55px;
+      line-height: 64px;
+      margin-right: 14px;
+      display: block;
+    }
+  }
+
+  .hitTheTarget__subTitle {
+    font-size: 26px;
+    line-height: 30px;
+  }
+}

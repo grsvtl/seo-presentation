@@ -316,3 +316,30 @@
   }
 }
 
+@media (max-width: 991.98px)  {
+  .experience__wrapper {
+    width: auto;
+  }
+
+  .experience__text-colored {
+    font-size: 90px;
+    line-height: normal;
+  }
+
+  .experience__wrapper_1 .tp-1,
+  .experience__wrapper_2 .tp-1 {
+    top: 0;
+  }
+
+  .experience__wrapper_1 .tp-3 {
+    right: 24px;
+  }
+
+  .experience__wrapper_2 .tp-1 {
+    left: 30px;
+  }
+
+  .experience__wrapper_3 .tp-1 {
+    left: 50px;
+  }
+}

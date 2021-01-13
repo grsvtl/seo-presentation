@@ -113,3 +113,24 @@
     transform: scale(1.4);
   }
 }
+
+@media (max-width: 991.98px) {
+  .internet-universe__wrapper {
+    display: block;
+    text-align: center;
+    height: 520px;
+
+    svg {
+      max-width: 120%;
+      padding-left: 50px;
+      padding-right: 50px;
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  }
+
+  .internet-universe__circle {
+    max-width: 200%;
+  }
+}
