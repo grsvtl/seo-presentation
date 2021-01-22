@@ -24,3 +24,19 @@
   margin-bottom: 40px;
   color: #FFFFFF;
 }
+
+@media (max-width: 991.98px) {
+  .seo-performance-marketing-diagram__svg {
+    display: none;
+  }
+
+  .seo-performance-marketing-diagram__mob {
+    display: block;
+  }
+
+  .seo-performance-marketing-diagram__title {
+    font-size: 32px;
+    line-height: 37px;
+    margin-bottom: 19px;
+  }
+}
