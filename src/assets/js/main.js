@@ -118,3 +118,25 @@ $(document).ready( function() {
         })()
     }
 } );
+
+
+$(document).ready(function () {
+    $(function() {
+        let blockStatus = true;
+        $(window).scroll(function() {
+            let target_block = $(".animated .price");
+            let scrollEvent = ($(window).scrollTop() > (target_block.position().top - $(window).height()));
+            if(scrollEvent && blockStatus) {
+                blockStatus = false;
+                $({numberValue: 0}).animate({numberValue: 130}, {
+                    duration: 1000,
+                    easing: "linear",
+                    step: function(val) {
+                        $(".price").html(Math.ceil(val));
+                    }
+                });
+            }
+        });
+    });
+});
+

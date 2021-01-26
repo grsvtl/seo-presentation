@@ -1,12 +1,27 @@
 .internet-universe {
   position: relative;
-  background: linear-gradient(78.8deg, #2E192E -0.88%, #0D1E35 91.35%);
+  background: linear-gradient(356.08deg, #09326B 0.18%, #611662 96.46%);
   padding-top: 90px;
   overflow: hidden;
 
+  &:before {
+    content: '';
+    position: absolute;
+    background: linear-gradient(78.8deg, #2E192E -0.88%, #0D1E35 91.35%);
+    mix-blend-mode: color;
+    opacity: 0.35;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 1;
+  }
+
   .container {
     position: relative;
-    z-index: 1;
+    z-index: 2;
   }
 }
 
@@ -73,7 +88,7 @@
   //transform: scale(1.2) translateX(0);
   background: #000000;
   opacity: 0.1;
-  animation: circleScale 2s infinite ease-in-out;
+  animation: circleScale 6s infinite ease-in-out;
 }
 
 .internet-universe__circle-1 {
