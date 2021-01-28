@@ -1634,35 +1634,35 @@
                             </clipPath>
                         </defs>
                     </svg>
-                    <div class="seo-performance-marketing-diagram__mob">
-                        <span>SE0</span>
-                        <p>Performance Marketing</p>
-                        <p>(SSO)</p>
+                    <div class="seo-performance-marketing-diagram__mob seoMarketingInfo">
+                        <span class="seoMarketingInfo__t1">SE0</span>
+                        <p class="seoMarketingInfo__t2">Performance Marketing</p>
+                        <p class="seoMarketingInfo__t2">(SSO)</p>
 
-                        <p>Таргетированная реклама в соцсетях</p>
-                        <div>
-                            <div></div>
-                            <div>
-                                <span>Facebook Business Manager</span>
-                                <span>Facebook ADS менеджер</span>
+                        <p class="seoMarketingInfo__t2">Таргетированная реклама в соцсетях</p>
+                        <div class="seoMarketingInfo__w1">
+                            <div class="seoMarketingInfo__circle"></div>
+                            <div class="seoMarketingInfo__w2">
+                                <span class="seoMarketingInfo__t1">Facebook Business Manager</span>
+                                <span class="seoMarketingInfo__t1">Facebook ADS менеджер</span>
                             </div>
                         </div>
-                        <span>arrow</span>
-                        <div>
-                            <div>
-                                <div></div>
-                                <span>Instagram</span>
+                        <span class="seoMarketingInfo__arrow-1"></span>
+                        <div class="seoMarketingInfo__w3">
+                            <div class="seoMarketingInfo__logo">
+                                <i class="seoMarketingInfo__logo-icon instagram-logotype"></i>
+                                <span class="seoMarketingInfo__logo-title">Instagram</span>
                             </div>
-                            <div>
-                                <div></div>
-                                <span>Facebook</span>
+                            <div class="seoMarketingInfo__logo">
+                                <i class="seoMarketingInfo__logo-icon facebook-logotype"></i>
+                                <span class="seoMarketingInfo__logo-title">Facebook</span>
                             </div>
                         </div>
 
-                        <span>Контекстная реклама</span>
-                        <span>arrow</span>
-                        <div>
-                            <div>
+                        <span class="seoMarketingInfo__t2">Контекстная реклама</span>
+                        <span class="seoMarketingInfo__arrow-1"></span>
+                        <div class="seoMarketingInfo__w5">
+                            <div class="seoMarketingInfo__w6">
                                 <span class="yandex-direct__noIcon"></span>
                                 <ul>
                                     <li>Поисковый таргетинг</li>
@@ -1671,7 +1671,7 @@
                                     <li>Графический таргетинг в РСЯ</li>
                                 </ul>
                             </div>
-                            <div>
+                            <div class="seoMarketingInfo__w7">
                                 <span class="google-ADS"></span>
                                 <ul>
                                     <li>Поисковый таргетинг</li>
@@ -1687,6 +1687,58 @@
                                 </ul>
                             </div>
                         </div>
+
+                        <div class="seoMarketingInfo__w8">
+                            <span class="seoMarketingInfo__t2">SMO</span>
+                            <div class="seoMarketingInfo__col">
+                                <div class="seoMarketingInfo__logo">
+                                    <i class="seoMarketingInfo__logo-icon instagram-logotype"></i>
+                                    <span class="seoMarketingInfo__logo-title">Instagram</span>
+                                </div>
+                                <div class="seoMarketingInfo__logo">
+                                    <i class="seoMarketingInfo__logo-icon vk-logotype"></i>
+                                    <span class="seoMarketingInfo__logo-title">Вконтакте</span>
+                                </div>
+                            </div>
+                            <div class="seoMarketingInfo__delimiter-1"></div>
+                            <div class="seoMarketingInfo__col">
+                                <div class="seoMarketingInfo__logo">
+                                    <i class="seoMarketingInfo__logo-icon ok-logotype"></i>
+                                    <span class="seoMarketingInfo__logo-title">Одноклассники</span>
+                                </div>
+                                <div class="seoMarketingInfo__logo">
+                                    <i class="seoMarketingInfo__logo-icon facebook-logotype"></i>
+                                    <span class="seoMarketingInfo__logo-title">Facebook</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="seoMarketingInfo__w9">
+                            <span class="seoMarketingInfo__t2">контент-маркетинг</span>
+                            <div class="seoMarketingInfo__col">
+                                <span class="seoMarketingInfo__logotype"></span>
+                                <span class="seoMarketingInfo__logotype"></span>
+                            </div>
+                            <div class="seoMarketingInfo__col">
+                                <span class="seoMarketingInfo__logotype"></span>
+                                <span class="seoMarketingInfo__logotype"></span>
+                            </div>
+                            <span class="seoMarketingInfo__t3">Другие</span>
+                        </div>
+
+                        <div class="seoMarketingInfo__w10">
+                            <span class="seoMarketingInfo__t2">контент-маркетинг</span>
+                            <span class="seoMarketingInfo__t4">(Вопрос ответ)</span>
+                            <div class="seoMarketingInfo__col3">
+                                <span class="seoMarketingInfo__logotype"></span>
+                            </div>
+                            <div class="seoMarketingInfo__col3">
+                                <span class="seoMarketingInfo__logotype"></span>
+                            </div>
+                            <div class="seoMarketingInfo__col3">
+                                <span class="seoMarketingInfo__logotype"></span>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
             </div>
@@ -3043,9 +3095,13 @@
                     </div>
                     <div class="col-12">
                         <div class="hitTheTarget__bg">
-                            <span class="Yandex_logo_ru"></span>
+                            <span class="Yandex_logo_ru hitTheTarget__logo"></span>
                             <div class="hitTheTarget__wrapper">
-                                <img class="mx-auto" src="assets/img/target-img.svg" alt="">
+                                <picture>
+                                    <source srcset="assets/img/target-img.svg" media="(min-width: 768px)">
+                                    <img src="assets/img/target-img__mob.svg" alt="" class="mx-auto">
+                                </picture>
+<!--                                <img class="mx-auto" src="assets/img/target-img.svg" alt="">-->
                                 <span class="hitTheTarget__cloud cloud-1 wow animate__bounceInDown"></span>
                                 <span class="hitTheTarget__cloud cloud-2 wow animate__bounceInRight" data-wow-delay="0.5s"></span>
                                 <span class="hitTheTarget__cloud cloud-3 wow animate__bounceInLeft" data-wow-delay="0.7s"></span>
@@ -3054,7 +3110,7 @@
                                 <span class="hitTheTarget__cloud cloud-6 wow animate__bounceInRight" data-wow-delay="1.3s"></span>
                                 <span class="hitTheTarget__cloud cloud-7 wow animate__bounceInLeft" data-wow-delay="1.5s"></span>
                             </div>
-                            <span class="Google_2015_logo"></span>
+                            <span class="Google_2015_logo hitTheTarget__logo"></span>
                         </div>
                     </div>
                 </div>

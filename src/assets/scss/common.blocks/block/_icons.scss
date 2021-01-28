@@ -1281,7 +1281,7 @@
   height: 55px;
   display: block;
   top: 304px;
-  left: -9%;
+  left: 2%;
 
 }
 
@@ -1303,4 +1303,61 @@
   display: block;
   top: 403px;
   left: 10%;
+}
+
+
+@media (max-width: 767.98px) {
+  .cloud-1 {
+    height: 33px;
+    width: 140px;
+    top: 40px;
+  }
+
+  .cloud-2 {
+    top: 96px;
+    height: 33px;
+    width: 132px;
+
+  }
+
+  .cloud-3 {
+    top: 115px;
+    height: 33px;
+    width: 123px;
+    left: 16%;
+  }
+
+  .cloud-4 {
+    top: 155px;
+    height: 33px;
+    width: 130px;
+  }
+
+  .cloud-5 {
+    top: 193px;
+    height: 33px;
+    width: 193px;
+  }
+
+  .cloud-6 {
+    top: 209px;
+    height: 33px;
+    width: 121px;
+  }
+
+  .cloud-7 {
+    top: 233px;
+    height: 33px;
+    width: 162px;
+  }
+
+  .Yandex_logo_ru {
+    width: 66px;
+    height: 26px;
+  }
+
+  .Google_2015_logo {
+    width: 77px;
+    height: 26px;
+  }
 }
