@@ -500,3 +500,15 @@
     display: block;
   }
 }
+
+@media (max-height: 800px) {
+  .scroll-topics__pt {
+    padding-top: 20px;
+  }
+
+  .circular-pattern {
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
