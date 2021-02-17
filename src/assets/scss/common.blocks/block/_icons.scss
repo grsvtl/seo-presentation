@@ -1417,6 +1417,242 @@
   display: block;
 }
 
+.violet-line {
+  background: url("../img/violet-line.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 232px;
+  height: 58px;
+  display: block;
+}
+
+.pink-line {
+  background: url("../img/pink-line.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 232px;
+  height: 58px;
+  display: block;
+}
+
+.orange-line {
+  background: url("../img/orange-line.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 232px;
+  height: 58px;
+  display: block;
+}
+
+.blue-line {
+  background: url("../img/blue-line.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 232px;
+  height: 58px;
+  display: block;
+}
+
+.avatar-AndreiJ {
+  background: url("../img/avatar-AndreiJ.png") no-repeat center;
+  background-size: 100% auto;
+  width: 104.51px;
+  height: 123.1px;
+  display: block;
+}
+
+.avatar-Igor {
+  background: url("../img/avatar-Igor.png") no-repeat center;
+  background-size: 100% auto;
+  width: 105.36px;
+  height: 124.8px;
+  display: block;
+}
+
+.avatar-Nikolai {
+  background: url("../img/avatar-Nikolai.png") no-repeat center;
+  background-size: 100% auto;
+  width: 105.53px;
+  height: 129px;
+  display: block;
+}
+
+.avatar-Daniil {
+  background: url("../img/avatar-Daniil.png") no-repeat center;
+  background-size: 100% auto;
+  width: 104.51px;
+  height: 123.1px;
+  display: block;
+}
+
+.avatar-Alexandr {
+  background: url("../img/avatar-Alexandr.png") no-repeat center;
+  background-size: 100% auto;
+  width: 105.36px;
+  height: 124.8px;
+  display: block;
+}
+
+.avatar-PavelK {
+  background: url("../img/avatar-PavelK.png") no-repeat center;
+  background-size: 100% auto;
+  width: 105.53px;
+  height: 130px;
+  display: block;
+}
+
+.avatar-Said {
+  background: url("../img/avatar-Said.png") no-repeat center;
+  background-size: 100% auto;
+  width: 104px;
+  height: 140px;
+  display: block;
+}
+
+.avatar-Sergei {
+  background: url("../img/avatar-Sergei.png") no-repeat center;
+  background-size: 100% auto;
+  width: 105px;
+  height: 139px;
+  display: block;
+}
+
+.avatar-Vladimir {
+  background: url("../img/avatar-Vladimir.png") no-repeat center;
+  background-size: 100% auto;
+  width: 105.53px;
+  height: 130px;
+  display: block;
+}
+
+.avatar-Anatilii {
+  background: url("../img/avatar-Anatilii.png") no-repeat center;
+  background-size: 100% auto;
+  width: 104px;
+  height: 125px;
+  display: block;
+}
+
+.avatar-AndreiK {
+  background: url("../img/avatar-AndreiK.png") no-repeat center;
+  background-size: 100% auto;
+  width: 101px;
+  height: 125px;
+  display: block;
+}
+
+.avatar-Pavel {
+  background: url("../img/avatar-Pavel.png") no-repeat center;
+  background-size: 100% auto;
+  width: 102px;
+  height: 126px;
+  display: block;
+}
+
+.logo-main-ansy {
+  background: url("../img/logo-main-ansy.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 21px;
+  height: 64px;
+  display: block;
+}
+
+.logo_vput {
+  background: url("../img/logo_vput.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 24px;
+  height: 58px;
+  display: block;
+}
+
+.logo-bgd {
+  background: url("../img/logo-bgd.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 27px;
+  height: 85px;
+  display: block;
+}
+
+.logo-dvn {
+  background: url("../img/logo-dvn.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 20px;
+  height: 95px;
+  display: block;
+}
+
+.logo-socroma {
+  background: url("../img/logo-socroma.png") no-repeat center;
+  background-size: 100% auto;
+  width: 23px;
+  height: 85px;
+  display: block;
+}
+
+.logo-go-informator {
+  background: url("../img/logo-go-informator.png") no-repeat center;
+  background-size: 100% auto;
+  width: 28px;
+  height: 48px;
+  display: block;
+}
+
+.logo-indoshell {
+  background: url("../img/logo-indoshell.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 34px;
+  height: 34px;
+  display: block;
+}
+
+.arrow-list-mob-1 {
+  position: relative;
+  padding-left: 24px;
+  padding-right: 20px;
+
+  &:before {
+    content: '';
+    background: url("../img/arrow-list-mob-1.svg") no-repeat center;
+    background-size: 100% auto;
+    width: 13px;
+    height: 159px;
+    display: block;
+    position: absolute;
+    top: -20px;
+    left: 0;
+  }
+}
+
+.arrow-list-mob-2 {
+  position: relative;
+  padding-left: 24px;
+  padding-right: 20px;
+
+  &:before {
+    content: '';
+    background: url("../img/arrow-list-mob-2.svg") no-repeat center;
+    background-size: 100% auto;
+    width: 13px;
+    height: 128px;
+    display: block;
+    position: absolute;
+    top: -20px;
+    left: 0;
+  }
+}
+
+.arrow-list-mob-3 {
+  background: url("../img/arrow-list-mob-3.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 26px;
+  height: 93px;
+  display: block;
+}
+
+.arrow-list-mob-4 {
+  background: url("../img/arrow-list-mob-4.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 26px;
+  height: 117px;
+  display: block;
+}
+
 @media (max-width: 767.98px) {
   .cloud-1 {
     height: 33px;
@@ -1470,5 +1706,10 @@
   .Google_2015_logo {
     width: 77px;
     height: 26px;
+  }
+
+  .logo-main {
+    width: 116px;
+    height: 31px;
   }
 }

@@ -193,6 +193,19 @@
   margin-bottom: 51px;
 }
 
+.seoMarketingInfo__w8-wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 60px;
+}
+
+.seoMarketingInfo__column {
+  flex: 1;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 24px;
+}
+
 @media (max-width: 991.98px) {
   .seo-performance-marketing-diagram__svg {
     display: none;
@@ -206,5 +219,12 @@
     font-size: 32px;
     line-height: 37px;
     margin-bottom: 19px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  #seo-performance-marketing-diagram {
+    padding-top: 32px;
+    padding-bottom: 50px;
   }
 }

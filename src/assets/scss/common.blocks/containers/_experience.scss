@@ -304,6 +304,14 @@
   opacity: 0;
 }
 
+.experience__mobWrapper {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 68px;
+  padding-right: 10px;
+  padding-bottom: 17px;
+}
+
 @keyframes flagAnimation {
   from {
     opacity: 0;
@@ -341,5 +349,56 @@
 
   .experience__wrapper_3 .tp-1 {
     left: 50px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .experience__svg {
+    display: none;
+  }
+
+  .experience__text-colored {
+    font-size: 70px;
+    line-height: 82px;
+  }
+
+  .experience__text-1 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+  }
+
+  .experience__wrapper_1 {
+    width: 151px;
+    margin-bottom: 46px;
+  }
+
+  .experience__wrapper_2 {
+    width: 120px;
+    margin-bottom: 40px;
+  }
+
+  .experience__wrapper_3 {
+    width: 153px;
+  }
+
+  .experience__wrapper_2 .tp-1 {
+    left: 15px;
+  }
+
+  .experience__wrapper_3 .tp-1 {
+    left: 50%;
+    transform: translateX(-50%);
+    top: 0;
+  }
+
+  .experience__title {
+    font-size: 32px;
+    line-height: 37px;
+  }
+
+  .experience__subTitle {
+    font-size: 24px;
+    line-height: 28px;
   }
 }
