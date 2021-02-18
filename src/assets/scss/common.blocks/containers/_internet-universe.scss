@@ -126,6 +126,10 @@
   }
 }
 
+.internet-universe__svg-mob {
+  display: none;
+}
+
 @media (max-width: 991.98px) {
   .internet-universe__wrapper {
     display: block;
@@ -148,6 +152,14 @@
 }
 
 @media (max-width: 767.98px) {
+  .internet-universe__svg {
+    display: none;
+  }
+  
+  .internet-universe__svg-mob {
+    display: block;
+  }
+  
   .internet-universe {
     padding-top: 16px;
   }
