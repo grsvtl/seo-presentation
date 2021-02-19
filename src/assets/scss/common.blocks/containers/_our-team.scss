@@ -146,8 +146,153 @@
   display: none;
 }
 
+.our-team__avatar-wrapper {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.our-team__avatar-img {
+  position: absolute;
+  width: 160px;
+}
+
+.our-team__wrapper {
+  position: relative;
+}
+
+.our-team__avatar-img-1 {
+  top: 96px;
+  right: 255px;
+}
+
+.our-team__avatar-img-2 {
+  bottom: 22px;
+  left: 408px;
+}
+
+.our-team__avatar-img-3 {
+  bottom: 269px;
+  right: 163px;
+}
+
+.our-team__avatar-img-4 {
+  bottom: 115px;
+  right: 255px;
+}
+
+.our-team__avatar-img-5 {
+  bottom: 15px;
+  right: 400px;
+}
+
+.our-team__avatar-img-6 {
+  top: 248px;
+  right: 163px;
+}
+
+.our-team__avatar-img-7 {
+  bottom: 113px;
+  left: 255px;
+}
+
+.our-team__avatar-img-8 {
+  bottom: 270px;
+  left: 160px;
+}
+
+.our-team__avatar-img-9 {
+  top: 252px;
+  left: 160px;
+}
+
+.our-team__avatar-img-10 {
+  top: 100px;
+  left: 252px;
+}
+
+.our-team__avatar-img-11 {
+  top: 11px;
+  left: 402px;
+}
+
+.our-team__avatar-img-12 {
+  top: 8px;
+  right: 400px;
+}
+
+@media (max-width: 1199.98px) {
+  .our-team__avatar-img {
+    width: 125px;
+  }
+
+  .our-team__avatar-img-1 {
+    top: 75px;
+    right: 194px;
+  }
+
+  .our-team__avatar-img-2 {
+    bottom: 15px;
+    left: 314px;
+  }
+
+  .our-team__avatar-img-3 {
+    bottom: 208px;
+    right: 124px;
+  }
+
+  .our-team__avatar-img-4 {
+    bottom: 86px;
+    right: 198px;
+  }
+
+  .our-team__avatar-img-5 {
+    bottom: 11px;
+    right: 311px;
+  }
+
+  .our-team__avatar-img-6 {
+    top: 197px;
+    right: 126px;
+  }
+
+  .our-team__avatar-img-7 {
+    bottom: 86px;
+    left: 195px;
+  }
+
+  .our-team__avatar-img-8 {
+    bottom: 205px;
+    left: 124px;
+  }
+
+  .our-team__avatar-img-9 {
+    top: 190px;
+    left: 120px;
+  }
+
+  .our-team__avatar-img-10 {
+    top: 75px;
+    left: 197px;
+  }
+
+  .our-team__avatar-img-11 {
+    top: 6px;
+    left: 308px;
+  }
+
+  .our-team__avatar-img-12 {
+    top: 7px;
+    right: 312px;
+  }
+}
+
 @media (max-width: 991.98px) {
-  .our-team__svg {
+  .our-team__wrapper {
     display: none;
   }
 
