@@ -3311,15 +3311,28 @@
                                 решение</p>
                             <form class="write-ToUs__form" action="">
                                 <input class="write-ToUs__form-control write-ToUs__form-control-name" type="text"
-                                       placeholder="Ваше имя">
+                                       name="name" placeholder="Ваше имя">
                                 <input class="write-ToUs__form-control write-ToUs__form-control-phone" type="text"
-                                       placeholder="Ваш телефон">
+                                       name="email" placeholder="Ваш телефон">
                                 <textarea class="write-ToUs__form-control write-ToUs__form-control-comment" rows="1"
-                                          placeholder="Текст сообщения"></textarea>
-
+                                          name="message" placeholder="Текст сообщения"></textarea>
+                                
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="alert alert-success alert-message-sent ml-1 d-none">
+                                            Ваше сообщение отправлено!
+                                        </div>
+                                        <div class="alert alert-danger alert-message-error ml-1 d-none">
+                                            Пожалуйста заполните поля!
+                                        </div>
+                                    </div>
+                                </div>
+                                
                                 <button type="submit"
                                         class="btn btn-secondary button write-ToUs__block-form-btn">Отправить
                                 </button>
+                                
+                                
                             </form>
                         </div>
                     </div>
